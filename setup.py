@@ -14,6 +14,11 @@ setup(
     author_email='coleifer@gmail.com',
     url='http://github.com/worldcompany/djangoembed/tree/master',
     packages=find_packages(),
+    install_requires=[
+        'PIL',
+        'BeautifulSoup',
+        'httplib2',
+    ],
     package_data = {
         'oembed': [
             'fixtures/*.json',
